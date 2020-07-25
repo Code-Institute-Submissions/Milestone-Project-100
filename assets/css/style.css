@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*----------------------------------------Header/Navbar*/
+
+header {
+    background-color: #BA55D3;
+    min-height: 120px;
+}
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+.headername {
+    font-family: "Exo", sans-serif;
+    font-size: 50px;
+    margin-right: 7px;
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #ffffff
+}
+
+.name {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+a.nav-pagelink  {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 20px;
+}
+
+
+
+/*----------------------------------------Index.html*/
+
+/*----------------------------------------My Skills.html*/
+
+/*----------------------------------------Portfolio.html*/
+
+/*----------------------------------------Contact.html*/
+
+/*----------------------------------------Footer*/
+
