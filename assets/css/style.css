@@ -22,18 +22,18 @@ header {
 }
 
 .name {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 500;
 }
 
 .title {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
 }
 
 a.nav-pagelink  {
     color: #ffffff;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
     padding: 20px;
 }
@@ -50,3 +50,54 @@ a.nav-pagelink  {
 
 /*----------------------------------------Footer*/
 
+footer {
+    background-color: #BA55D3;
+    min-height: 120px;
+}
+
+p {
+    font-family: "Exo", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.cv-pdf i {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color: #FFFF00;
+}
+
+.icons {
+    padding-bottom: 15px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.icons li a i {
+    width: 40px;
+    height: 40px;
+    padding: 15px 0;
+    border-radius: 50%;
+    font-size: 14px;
+    line-height: 7px;
+    text-align: center;
+    color: #FFFF00;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
