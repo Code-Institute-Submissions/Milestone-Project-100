@@ -13,12 +13,12 @@ header {
 
 .headername {
     font-family: "Exo", sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     margin-right: 7px;
     margin-left: 15px;
     margin-top: 20px;
     margin-bottom: 20px;
-    color: #ffffff
+    color: #ffffff;
 }
 
 .name {
@@ -37,8 +37,6 @@ a.nav-pagelink  {
     font-weight: 500;
     padding: 20px;
 }
-
-
 
 /*----------------------------------------Index.html*/
 
@@ -61,7 +59,12 @@ p {
     text-align: center;
     margin-left: 15px;
     margin-top: 20px;
+    font-weight: 500;
     color: #fff;
+}
+
+.creator {
+    text-align: left;
 }
 
 .cv-pdf i {
