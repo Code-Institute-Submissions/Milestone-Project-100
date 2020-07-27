@@ -26,19 +26,19 @@
         <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarNav"> 
+        <div class="collapse navbar-collapse pages" id="navbarNav"> 
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item mr-2 menu">
-                    <a class="nav-pagelink" href="#">Home</a>
+                    <a class="nav-pagelink" href="index.html">Home</a>
                 </li>
                 <li class="nav-item mr-2 menu">
-                    <a class="nav-pagelink" href="#">My Skills</a>
+                    <a class="nav-pagelink" href="my skills.html">My Skills</a>
                 </li>               
                 <li class="nav-item mr-2 menu">
-                    <a class="nav-pagelink" href="#">Portfolio</a>
+                    <a class="nav-pagelink" href="portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item mr-2 menu">
-                    <a class="nav-pagelink" href="#">Contact</a>
+                    <a class="nav-pagelink" href="contact.html">Contact</a>
                 </li>
                 <li class="nav-item mr-2 menu">
                     <a class="nav-pagelink" href="#" target="_blank">Download CV</a>
@@ -56,8 +56,29 @@
         </div>
     </header>
 <!----------------------Main Body------------------------->
-    <section>
-    contact form
+    <section class="container-fluid">
+        <div class="row contact-us"></div>
+            <div class="col">
+            <h3 class="contact-us-header text-center">Contact Me</h3>
+            <h5 class="contact-us-subheader text-center">If you have any questions or have a project idea which you would like to collaborate on,</h5>
+            <h5 class="contact-us-subheader text-center">please fill in the form below and I’ll get back to you as soon as possible!</h5>
+
+            <div class="center-form">
+                <form>
+                <input type="text" name="name" id="fullName" class="form-control" placeholder="Full Name" required/>
+                <br>
+                <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email Address" required/>
+                <br>
+                <textarea name="messagesummary" id="messagesummary" class="form-control" placeholder="Enter Message" rows="5" required></textarea>
+                <br>
+                <div class="form-row text-center">
+                    <div class="col">
+                    <button type="submit" class="btn btn-secondary">Submit</button>
+                </div>
+                </div>
+                </form>
+            </div>
+            </div>
     </section>
 <!----------------------Footer------------------------->
 

@@ -21,14 +21,10 @@ header {
     color: #ffffff;
 }
 
-.name {
+.pages {
     font-size: 30px;
     font-weight: 500;
-}
-
-.title {
-    font-size: 25px;
-    font-weight: 500;
+    font-family: "Exo";
 }
 
 a.nav-pagelink  {
@@ -45,6 +41,40 @@ a.nav-pagelink  {
 /*----------------------------------------Portfolio.html*/
 
 /*----------------------------------------Contact.html*/
+
+.contact-us-header {
+    font-family: "Exo", sans-serif;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.contact-us-subheader {
+    font-family: "Exo", sans-serif;
+    font-size: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 65%;
+}
+
+.btn {
+    font-family: "Exo", sans-serif;
+    background-color: #228B22;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+@media(min-width: 992px) {
+    .center-form {
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+}
 
 /*----------------------------------------Footer*/
 
