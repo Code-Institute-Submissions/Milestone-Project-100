@@ -47,8 +47,47 @@ a.nav-pagelink  {
     margin-left: 100px;
 }
 
+.personalinfo p {
+    font-family: "Exo", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: #000000;
+    text-align: center;
+}
+
+.signature {
+    font-size: 40px;
+    color: #000000;
+    margin-right: 30px;
+}
+
+.calendar {
+    font-size: 40px;
+    color: #000000;
+    margin-right: 30px;  
+}
+
+.address {
+    font-size: 40px;
+    color: #000000;
+    margin-right: 30px;      
+}
+
+.email {
+    font-size: 40px;
+    color: #000000;
+    margin-right: 30px;  
+}
+
+.phone {
+    font-size: 40px;
+    color: #000000;
+    margin-right: 30px;     
+}
+
 .introduction {
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .introduction p {
@@ -60,6 +99,13 @@ a.nav-pagelink  {
     color: #000000;
     text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+    .introduction {
+        margin-top: 15px;
+    }
+}
+
 
 /*----------------------------------------My Skills.html*/
 
@@ -122,8 +168,8 @@ p {
     text-align: left;
 }
 
-.cv-pdf i {
-    font-size: 18px;
+.download {
+    font-size: 25px;
     color: #fafafa;
     text-align: center;
     padding-left: 5px;
@@ -133,29 +179,38 @@ p {
     -o-transition: all 0.35s ease-in-out;
 }
 
-.cv-pdf i:hover {
+.download :hover {
     color: #FFFF00;
 }
 
-.icons {
+.facebook {
     padding-bottom: 15px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 25px;
+    color: #FFFF00;
+    width: 50px;
+    height: 50px;
 }
 
-.icons li a i {
-    width: 40px;
-    height: 40px;
-    padding: 15px 0;
-    border-radius: 50%;
-    font-size: 14px;
-    line-height: 7px;
+.twitter {
+    padding-bottom: 15px;
     text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
     color: #FFFF00;
-    background: #8f8f8f;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    width: 50px;
+    height: 50px 
 }
+
+.linkedin {
+    padding-bottom: 15px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+    color: #FFFF00;
+    width: 50px;
+    height: 50px
+}
+
+
