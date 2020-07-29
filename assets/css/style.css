@@ -100,9 +100,9 @@ a.nav-pagelink  {
     text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     .introduction {
-        margin-top: 15px;
+        margin-top: 5px;
     }
 }
 
@@ -141,10 +141,11 @@ a.nav-pagelink  {
 
 @media(min-width: 992px) {
     .center-form {
-    padding-top: 30px;
-    min-height: 240px;
-    margin: 0 auto;
-    max-width: 50%;
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
 
 /*----------------------------------------Footer*/
