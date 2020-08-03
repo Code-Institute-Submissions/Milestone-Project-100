@@ -34,6 +34,12 @@ a.nav-pagelink  {
     padding: 20px;
 }
 
+@media only screen and (max-width: 900px) {
+    .title {
+        font-size: 25px;
+    }
+}
+
 /*----------------------------------------Index.html*/
 
 .rishiimage {
@@ -111,6 +117,41 @@ a.nav-pagelink  {
 
 /*----------------------------------------Portfolio.html*/
 
+.portfolio {
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.loverunning {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    height: auto;
+    padding-bottom: 50px;
+    margin-left: 50px;
+}
+
+.whiskeydrop {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    height: auto;
+    margin-top: 30px;
+    padding-bottom: 50px;
+    margin-left: 50px;
+}
+
+.msp1 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    height: auto;
+    margin-top: 30px;
+    padding-bottom: 50px;
+    margin-left: 50px;   
+}
 /*----------------------------------------Contact.html*/
 
 .contact-us-header {
