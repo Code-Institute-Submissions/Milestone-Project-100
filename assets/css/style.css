@@ -42,6 +42,10 @@ a.nav-pagelink  {
 
 /*----------------------------------------Index.html*/
 
+#content {
+    min-height: calc(100vh - 210px);
+}
+
 .rishiimage {
     background-repeat: no-repeat;
     background-size: cover;
@@ -125,8 +129,6 @@ a.nav-pagelink  {
 }
 
 .loverunning {
-    background-repeat: no-repeat;
-    background-size: cover;
     width: 90%;
     height: auto;
     padding-bottom: 50px;
@@ -135,8 +137,6 @@ a.nav-pagelink  {
 }
 
 .whiskeydrop {
-    background-repeat: no-repeat;
-    background-size: cover;
     width: 90%;
     height: auto;
     margin-top: 30px;
@@ -145,8 +145,6 @@ a.nav-pagelink  {
 }
 
 .msp1 {
-    background-repeat: no-repeat;
-    background-size: cover;
     width: 90%;
     height: auto;
     margin-top: 30px;
@@ -154,7 +152,38 @@ a.nav-pagelink  {
     padding-left: 50px;
 }
 
+.project-title {
+    font-family: "Exo", sans-serif;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 15px;
+}
+
+.project-desc {
+    text-align: left;
+    color: #000000
+}
+
+@media screen and (max-width: 900px) {
+    .project-desc {
+        font-size: 18px;
+        padding-left: 35px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .project-title {
+        padding-top: 5px;
+        padding-left: 50px;
+    }
+}
+
+
 /*----------------------------------------Contact.html*/
+
+#content {
+    min-height: calc(100vh - 210px);
+}
 
 .contact-us-header {
     font-family: "Exo", sans-serif;
@@ -182,7 +211,7 @@ a.nav-pagelink  {
     color: #FFFFFF;
 }
 
-@media(min-width: 992px) {
+@media(min-width: 900px) {
     .center-form {
         padding-top: 30px;
         min-height: 240px;
