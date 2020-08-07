@@ -129,7 +129,7 @@ a.nav-pagelink  {
 }
 
 .loverunning {
-    width: 90%;
+    width: 100%;
     height: auto;
     padding-bottom: 50px;
     padding-top: 10px;
@@ -137,7 +137,7 @@ a.nav-pagelink  {
 }
 
 .whiskeydrop {
-    width: 90%;
+    width: 100%;
     height: auto;
     margin-top: 30px;
     padding-bottom: 50px;
@@ -145,7 +145,7 @@ a.nav-pagelink  {
 }
 
 .msp1 {
-    width: 90%;
+    width: 100%;
     height: auto;
     margin-top: 30px;
     padding-bottom: 50px;  
@@ -161,7 +161,8 @@ a.nav-pagelink  {
 
 .project-desc {
     text-align: left;
-    color: #000000
+    color: #000000;
+    font-size: 18px;
 }
 
 @media screen and (max-width: 900px) {
