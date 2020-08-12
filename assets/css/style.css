@@ -129,7 +129,6 @@ a.nav-pagelink  {
   background-color: #c4c4c4;
   margin-top: 50px;
   margin-bottom: 50px;
-  margin-left: 75px;
 }
 
 .rectangle p {
@@ -137,6 +136,13 @@ a.nav-pagelink  {
     color: #000000;
     padding-top: 20px;
     padding-bottom: 10px;
+}
+
+.icons {
+    font-size: 70px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .Education {
