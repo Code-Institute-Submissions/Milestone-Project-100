@@ -43,7 +43,7 @@ a.nav-pagelink  {
 /*----------------------------------------Index.html*/
 
 #content {
-    min-height: calc(100vh - 210px);
+    min-height: calc(100vh - 250px);
 }
 
 .rishiimage {
@@ -119,6 +119,78 @@ a.nav-pagelink  {
 
 /*----------------------------------------My Skills.html*/
 
+#content {
+    min-height: calc(100vh - 250px);
+}
+
+.rectangle {
+  height: 700px;
+  width: 400px;
+  background-color: #c4c4c4;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 75px;
+}
+
+.rectangle p {
+    text-align: center;
+    color: #000000;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.Education {
+    font-family: "Exo", sans-serif;
+    text-align: center;
+    position: relative;
+    top: 15px;
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    border-left: 1px solid;
+    margin-left: 30px;
+    color: #000000; 
+}
+
+.school {
+    font-family: "Exo", sans-serif;
+    font-size: 18px;
+}
+
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item::after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #000000;
+}
+
+.education-items {
+    margin-bottom: 30px;
+}
+
+
+
 /*----------------------------------------Portfolio.html*/
 
 .portfolio {
@@ -152,14 +224,14 @@ a.nav-pagelink  {
     padding-left: 50px;
 }
 
-.project-title {
+.p-title {
     font-family: "Exo", sans-serif;
     text-align: left;
     padding-top: 30px;
     padding-left: 15px;
 }
 
-.project-desc {
+.p-desc {
     text-align: left;
     color: #000000;
     font-size: 18px;
@@ -183,7 +255,7 @@ a.nav-pagelink  {
 /*----------------------------------------Contact.html*/
 
 #content {
-    min-height: calc(100vh - 210px);
+    min-height: calc(100vh - 250px);
 }
 
 .contact-us-header {
