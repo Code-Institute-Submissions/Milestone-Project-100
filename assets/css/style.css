@@ -257,6 +257,15 @@ a.nav-pagelink  {
     }
 }
 
+@media screen and (max-width: 900px) {
+    .loverunning, 
+    .whiskeydrop,
+    .msp1 {
+        padding-left: 15px;
+    }
+}
+
+
 
 /*----------------------------------------Contact.html*/
 
