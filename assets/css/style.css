@@ -195,6 +195,15 @@ a.nav-pagelink  {
     margin-bottom: 30px;
 }
 
+@media screen and (max-width: 900px) {
+    .rectangle {
+        margin-left: 0px;
+        width: 350px;
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+}
+
 
 
 /*----------------------------------------Portfolio.html*/
@@ -264,8 +273,6 @@ a.nav-pagelink  {
         padding-left: 15px;
     }
 }
-
-
 
 /*----------------------------------------Contact.html*/
 
