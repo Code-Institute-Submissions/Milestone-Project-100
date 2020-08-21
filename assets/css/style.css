@@ -34,11 +34,6 @@ a.nav-pagelink  {
     padding: 20px;
 }
 
-@media only screen and (max-width: 900px) {
-    .title {
-        font-size: 25px;
-    }
-}
 
 /*----------------------------------------Index.html*/
 
@@ -110,12 +105,6 @@ a.nav-pagelink  {
     text-align: center;
 }
 
-@media only screen and (max-width: 900px) {
-    .introduction {
-        margin-top: 5px;
-    }
-}
-
 
 /*----------------------------------------My Skills.html*/
 
@@ -129,13 +118,16 @@ a.nav-pagelink  {
   background-color: #c4c4c4;
   margin-top: 50px;
   margin-bottom: 50px;
-}
+  margin-right: auto;
+  margin-left: auto;
+ }
 
 .rectangle p {
     text-align: center;
     color: #000000;
     padding-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
+    margin: auto;
 }
 
 .icons {
@@ -195,16 +187,6 @@ a.nav-pagelink  {
     margin-top: -11px;
 }
 
-@media screen and (max-width: 900px) {
-    .rectangle {
-        margin-left: 0px;
-        width: 300px;
-        margin-top: 20px;
-        margin-bottom: 25px;
-    }
-}
-
-
 
 /*----------------------------------------Portfolio.html*/
 
@@ -252,28 +234,6 @@ a.nav-pagelink  {
     font-size: 18px;
 }
 
-@media screen and (max-width: 900px) {
-    .project-desc {
-        font-size: 18px;
-        padding-left: 35px;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .project-title {
-        padding-top: 5px;
-        padding-left: 50px;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .loverunning, 
-    .whiskeydrop,
-    .msp1 {
-        padding-left: 15px;
-    }
-}
-
 /*----------------------------------------Contact.html*/
 
 #content {
@@ -304,15 +264,6 @@ a.nav-pagelink  {
     margin-top: 15px;
     margin-bottom: 20px;
     color: #FFFFFF;
-}
-
-@media(min-width: 900px) {
-    .center-form {
-        padding-top: 30px;
-        min-height: 240px;
-        margin: 0 auto;
-        max-width: 50%;
-    }
 }
 
 /*----------------------------------------Footer*/
@@ -381,4 +332,47 @@ p {
     height: 50px
 }
 
+/*----------------------------------------Media Queries*/
 
+@media only screen and (max-width: 900px) {
+    .title {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .introduction {
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .project-desc {
+        font-size: 18px;
+        padding-left: 35px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .project-title {
+        padding-top: 5px;
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .loverunning, 
+    .whiskeydrop,
+    .msp1 {
+        padding-left: 15px;
+    }
+}
+
+@media(min-width: 900px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+}
