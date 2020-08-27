@@ -131,10 +131,13 @@ a.nav-pagelink  {
 }
 
 .icons {
-    font-size: 70px;
-    margin-left: 30px;
+    font-size: 65px;
+    margin-left: 80px;
     margin-top: 20px;
     margin-bottom: 20px;
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .Education {
@@ -187,6 +190,13 @@ a.nav-pagelink  {
     margin-top: -11px;
 }
 
+.languages p {
+    font-size: 30px;
+    display: inline-block;
+    width: 60%;
+    margin-bottom: -10px;
+    vertical-align: middle;
+}
 
 /*----------------------------------------Portfolio.html*/
 
@@ -302,7 +312,7 @@ p {
     color: #FFFF00;
 }
 
-.facebook {
+.social-media {
     padding-bottom: 15px;
     text-align: center;
     margin-top: 20px;
@@ -310,26 +320,6 @@ p {
     color: #FFFF00;
     width: 50px;
     height: 50px;
-}
-
-.twitter {
-    padding-bottom: 15px;
-    text-align: center;
-    margin-top: 20px;
-    font-size: 25px;
-    color: #FFFF00;
-    width: 50px;
-    height: 50px 
-}
-
-.linkedin {
-    padding-bottom: 15px;
-    text-align: center;
-    margin-top: 20px;
-    font-size: 25px;
-    color: #FFFF00;
-    width: 50px;
-    height: 50px
 }
 
 /*----------------------------------------Media Queries*/
