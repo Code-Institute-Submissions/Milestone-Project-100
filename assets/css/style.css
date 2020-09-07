@@ -358,6 +358,30 @@ p {
     }
 }
 
+@media only screen and (max-width: 900px) {
+    .rectangle {
+        margin-bottom: 10px;
+        height: 600px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .icons {
+        font-size: 40px;
+    }
+    .languages p {
+        font-size: 25px;
+    }
+    .school {
+        font-size: 15px;
+    }
+    .rectangle {
+        width: 300px;
+        height: 550px;
+        margin-bottom: 7px;
+    }
+}
+
 @media(min-width: 900px) {
     .center-form {
         padding-top: 30px;
