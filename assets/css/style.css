@@ -130,15 +130,14 @@ a.nav-pagelink  {
     margin: auto;
 }
 
-.icons {
+.coding-icons {
     font-size: 65px;
     margin-left: 80px;
-    margin-top: 20px;
-    margin-bottom: 20px;
     width: 40%;
     display: inline-block;
     vertical-align: middle;
 }
+
 
 .Education {
     font-family: "Exo", sans-serif;
@@ -316,7 +315,7 @@ p {
     padding-bottom: 15px;
     text-align: center;
     margin-top: 20px;
-    font-size: 25px;
+    font-size: 30px;
     color: #FFFF00;
     width: 50px;
     height: 50px;
