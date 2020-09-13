@@ -5,7 +5,7 @@
 This is my first project for Code Institute. The website is a resume allowing future employers to get to know more about me and being able to have a look at my skills and previous work experience. 
 The site is made up of 4 pages and has a link in which you can download my CV from for those who are looking for a deeper dive. 
 
-The Home page consists of an introductory paragraph along with a picture of myself and my personal details below. #
+The Home page consists of an introductory paragraph along with a picture of myself and my personal details below. 
 The My Skills page shows my education and work history along with the different coding languages I will learn with Code Institute. 
 The portfolio page shows all the mini projects I have completed so far. 
 Finally, there is a contact page which has a form which allows prospective employers or other web developers to get in touch with me. 
@@ -39,7 +39,7 @@ I first designed the basic layout of the webpages, once that was done I started 
 
 A future feature that I would like to implement would be to add a mailto function so in the future I can receive the content from the contact form when submitted.
 
-### colours
+### Colours
 
 The pages follow a standard colour scheme with only a few colours being used throughout the whole sight, the colours that were used are listed below:
 #BA55D3 - Purple
@@ -98,6 +98,43 @@ I then used the developer tools on Google Chrome to test the website on differen
 * iPhone X
 * iPad
 * Moto G4
+
+## Deployment 
+
+I used GitHub pages to deploy my website. The way I did this is shown below:
+
+1.	I first logged into my GitHub account
+2.	I clicked on the Milestone-Project-1 repository and then went onto the settings tab.
+3.	I scrolled to the bottom of the page and went to the GitHub pages area
+4.	In the GitHub pages section, I changed the branch dropdown list option from none to master.
+5.	After this, the page automatically refreshed and the link to the website now appears.
+
+To run the code locally, the following steps need to be undertaken:
+
+1.	In the Milestone-Project-1 repository, click clone or download
+2.	A URL will pop up, in which you should copy the URL
+3.	Open an IDE of your choice
+4.	In the terminal, type in git clone and paste the URL you copied earlier and hit the enter button. 
+ 
+
+## Credits
+
+### Content 
+
+* The fonts were used from Google Fonts
+* The icons were used from the Font Awesome website
+* The navbar was used from bootstrap however was first seen in the whiskey drop mini project by Code Institute. 
+
+### Media
+
+* The image on the homepage is one of my own.
+
+### Acknowledgments 
+
+* The inspiration behind this project was based on the resume mini project that I created while completing the User Centric module.
+* I received advice from my mentor Aaron Sinnott
+* I also received help from the Code Institute Mentoring team who helped me when I had errors which I could not fix myself
+
 
 
 
