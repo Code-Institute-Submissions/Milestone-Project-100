@@ -49,3 +49,21 @@ The pages follow a standard colour scheme with only a few colours being used thr
 ### Font
 
 Throughout the website, I decided to use 1 font as I thought I would look better than having 2 -3 different fonts. The font I used was Exo as I believed It looked the best out of all the fonts. 
+
+## Technologies Used 
+
+[HTML5](https://en.wikipedia.org/wiki/HTML5) – HTML was used to create the basic structure of the website.
+[CSS3](https://en.wikipedia.org/wiki/CSS) – I used CSS to style the pages of the website.
+[Google Fonts](https://fonts.google.com/) – Provided me with the font I used throughout the pages.
+[Font Awesome](https://fontawesome.com/) – Was used to add icons on the homepage and the My Skills page. Also used in the footer for the social media links as well as a download icon. 
+[Bootstrap](https://getbootstrap.com/) – I used v4.5 of bootstrap to add columns and rows to the pages to provide some sort of structure. It also allowed me to make the pages responsive  for smaller screen sizes. 
+[jQuery](https://jquery.com/) - The project uses JQuery to simplify DOM manipulation.
+[GitHub](https://github.com/) – I used GitHub to create the repository, it also hosts the website. 
+[Git](https://en.wikipedia.org/wiki/Git) -  Used for version control as well as storing any changes I made to the code. 
+[Gitpod](https://www.gitpod.io/) -  This was the IDE I used for the project
+[Figma](https://www.figma.com/) – Used to create the wireframes which provided me with the basic design of the website. 
+[W3C Markup Validation Service](https://validator.w3.org/) – I used this to validate my HTML to see if there were any errors in my HTML. 
+[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) - I used this to validate my CSS to see if there were any errors in my CSS.
+
+
+
