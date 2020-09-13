@@ -23,4 +23,29 @@ This project is for potential employers, potential clients, and other web develo
 I created my wireframes on Figma. 
 I first designed the basic layout of the webpages, once that was done I started adding colours to see how it would look before deciding on my final colour scheme. 
 
-[Final Wireframes](https://www.figma.com/file/uRnosWmwXzeq2FGx25Ph8z/Milestone-Project-1?node-id=0%3A1)
+[Figma Wireframes](https://www.figma.com/file/uRnosWmwXzeq2FGx25Ph8z/Milestone-Project-1?node-id=0%3A1)
+
+## Features 
+
+Feature 1 – Nav Bar – Allows users to easily navigate through the website. Within the navbar there is a Download CV option which when clicked will download my CV for the user to read
+Feature 2 – Contact Form – This page allows users to get in contact with me, form currently doesn’t have a mailto action, so when the submit button is pressed, the website will refresh instead
+Feature 3 – Footer – The footer contains all the links to my social media pages as well as a link download button which allows them to download my CV in a pdf format. 
+Feature 4 – Portfolio Page – This page shows my current projects I have completed with Code Institute. There is a screenshot of the project homepage as well as a short description about the project. When the user clicks on the screenshot, the project will open in a new tab allowing the user to view the website. 
+Feature 5 – Timelines – On the My Skills page there is a timeline which shows the user my education history and work history. The timeline is complete with dates to show the user how long I have been working for as well as how long I have been studying for. 
+
+### Features left to implement
+
+A future feature that I would like to implement would be to add a mailto function so in the future I can receive the content from the contact form when submitted.
+
+### colours
+
+The pages follow a standard colour scheme with only a few colours being used throughout the whole sight, the colours that were used are listed below:
+#BA55D3 - Purple
+#FFFFFF - White
+#FFFF00 - Yellow
+#C4C4C4 – Light Grey
+
+
+### Font
+
+Throughout the website, I decided to use 1 font as I thought I would look better than having 2 -3 different fonts. The font I used was Exo as I believed It looked the best out of all the fonts. 
