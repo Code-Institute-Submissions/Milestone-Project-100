@@ -19,6 +19,7 @@ This project is for potential employers, potential clients, and other web develo
 * As an employer I want to be able to see my previous education, work history and to see if I have the necessary skills. 
 * As a potential client I want to be able to view my previous projects 
 * As a web developer I want to be able to get in contact to try and collaborate on future projects.
+* As a site owner, I would like to increase my online presence so I can become more well known within the web develpoment community. 
 
 ### Wireframes
 
@@ -42,10 +43,10 @@ A future feature that I would like to implement would be to add a mailto functio
 ### Colours
 
 The pages follow a standard colour scheme with only a few colours being used throughout the whole sight, the colours that were used are listed below:
-#BA55D3 - Purple
-#FFFFFF - White
-#FFFF00 - Yellow
-#C4C4C4 – Light Grey
+* #BA55D3 - Purple
+* #FFFFFF - White
+* #FFFF00 - Yellow
+* #C4C4C4 – Light Grey
 
 
 ### Font
@@ -76,6 +77,34 @@ Throughout the website, I decided to use 1 font as I thought I would look better
 * Contact Form – To test the contact form, I tried to submit the form without inputting any data in the fields. The result of this was that the form couldn’t be submitted and that error messages appeared saying that data needed to be inputted in the fields. When I did add data into the fields, the form would submit and there wouldn’t be any error messages. 
 * Social Media Icons – To test the icons within the footer, I clicked on each icon and it opened the corresponding social media page in a new tab. I tested this on smaller screen sizes to make sure it worked on all  the devices. 
 
+### Testing Stories from UX section 
+
+#### Employer Visitor Goals
+
+* As an employer I want to be able to see my previous education, work history and to see if I have the necessary skills. 
+
+1. When the user opens the website they are taken to the homepage which shows my personal details. 
+2. They then can click on the My Skills link in the navbar.
+3. This leads them to the My Skills page in which they can find timelines showing my work history and education as well as my cuurent ability in the coding languages I will be learning. 
+
+##### Potential Client Visitor Goals
+
+* As a potential client I want to be able to view my previous projects 
+
+1. When the client opens the website they are taken to the homepage.
+2. To view my current portfolio, they can click on the portfolio page in the navbar.
+3. Once on the portfolio page they can view my completed projects, they can also view the project by clicking on the picture which will open the project in a new tab.
+
+##### Other Web Developers Visitor Goals
+
+* As a web developer I want to be able to get in contact to try and collaborate on future projects.
+
+1. If another web developer goes on to my website and wants to get in contact with me, they will need to click on the contact link in the navbar. 
+2. This will lead them to the contact page which has a contact form on the page.
+3. They will need to enter their full name, email address and whatever message they would like. 
+4. If the full name and email address fields arent complete then an error message will appear. 
+
+
 ### Testing Tools 
 
 I used the following validation services to validate my code:
@@ -83,7 +112,10 @@ I used the following validation services to validate my code:
 * W3C Markup Validation Service 
 * W3C CSS Validation Service
 
-Both my CSS and HMTL passed the validation service without any errors
+Both my CSS and HTML passed the validation service without any errors
+
+<h4 align="center"><img src="Documentation/CssValidator.JPG"></h4>
+<h4 align="center"><img src="Documentation/HTMLValidator.JPG"></h4>
 
 ### Testing Methods 
 
