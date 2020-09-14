@@ -87,7 +87,7 @@ Throughout the website, I decided to use 1 font as I thought I would look better
 2. They then can click on the My Skills link in the navbar.
 3. This leads them to the My Skills page in which they can find timelines showing my work history and education as well as my cuurent ability in the coding languages I will be learning. 
 
-##### Potential Client Visitor Goals
+#### Potential Client Visitor Goals
 
 * As a potential client I want to be able to view my previous projects 
 
@@ -95,7 +95,7 @@ Throughout the website, I decided to use 1 font as I thought I would look better
 2. To view my current portfolio, they can click on the portfolio page in the navbar.
 3. Once on the portfolio page they can view my completed projects, they can also view the project by clicking on the picture which will open the project in a new tab.
 
-##### Other Web Developers Visitor Goals
+#### Other Web Developers Visitor Goals
 
 * As a web developer I want to be able to get in contact to try and collaborate on future projects.
 
