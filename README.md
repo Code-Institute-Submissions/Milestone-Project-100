@@ -165,7 +165,7 @@ To run the code locally, the following steps need to be undertaken:
 
 * The inspiration behind this project was based on the resume mini project that I created while completing the User Centric module.
 * I received advice from my mentor Aaron Sinnott
-* I also received help from the Code Institute Mentoring team who helped me when I had errors which I could not fix myself
+* I also received help from the Code Institute tutoring team who helped me when I had errors which I could not fix myself
 
 
 
